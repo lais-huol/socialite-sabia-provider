@@ -25,3 +25,12 @@ After installing the provider library, register the `LAIS\Socialite\Sabia\Servic
     LAIS\Socialite\Sabia\ServiceProvider::class,
 ],
 ```
+
+You will also need to add credentials for the Sabiá OAuth services in order to your application utilize them. These credentials should be placed in your `config/services.php` configuration file, and should use the key `sabia`. For example:
+```php
+'sabia' => [
+    'client_id' => 'your-sabiá-app-id',
+    'client_secret' => 'your-sabiá-app-secret',
+    'redirect' => 'http://your-callback-url',
+],
+```
