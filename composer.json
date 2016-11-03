@@ -1,0 +1,21 @@
+{
+    "name": "lais/socialite-sabia-provider",
+    "description": "Socialite provider for Sabiá OAuth services.",
+    "keywords": ["oauth", "laravel", "sabia"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guilherme Portela",
+            "email": "guilhermeportela@gmx.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "laravel/socialite": "~2.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "LAIS\\Socialite\\Sabia\\": "src/"
+        }
+    }
+}
