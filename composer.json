@@ -17,5 +17,12 @@
         "psr-4": {
             "LAIS\\Socialite\\Sabia\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LAIS\\Socialite\\Sabia\\ServiceProvider"
+            ]
+        }
     }
 }
