@@ -14,7 +14,14 @@ To get started with our provider, add to your `composer.json` file as a dependen
 
     composer require lais/socialite-sabia-provider
 
+Laravel <= 5.8
+```sh
+composer require lais/socialite-sabia-provider=^2.0
+```
+
 ### Configuration
+
+Laravel Version 5.5 > skip this step.
 
 After installing the provider library, register the `LAIS\Socialite\Sabia\ServiceProvider` in your `config/app.php` configuration file:
 
